@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # load data
-kind = 'u'
+kind = 'n'
 if kind == 'n':
     data = np.load("pce_vs_mc_n.npz")
-    y_lim = [550, 680]
+    y_lim = [150, 190]
     a_lim = [0.75, 0.47, 0.23, 0.30]
 elif kind == 'u':
     # data = np.load("pce_vs_mc_uni.npz")
@@ -33,7 +33,7 @@ plt.semilogx(pt, mu,'C0-o', label='PCE')
 plt.xticks(fontsize=16)
 plt.yticks(fontsize=16)
 plt.xlabel('number of evaluations', fontsize=16)
-plt.ylabel('mean', fontsize=16)
+plt.ylabel('mean (euro)', fontsize=16)
 plt.legend(fontsize=16)
 plt.tight_layout()
 
@@ -43,7 +43,7 @@ plt.semilogx(pt, sigma,'C0-o', label='PCE')
 plt.xticks(fontsize=16)
 plt.yticks(fontsize=16)
 plt.xlabel('number of evaluatins', fontsize=16)
-plt.ylabel('standard deviation', fontsize=16)
+plt.ylabel('standard deviation (euro)', fontsize=16)
 plt.legend(fontsize=16)
 plt.tight_layout()
 
@@ -52,7 +52,7 @@ ax3.semilogx(pt2, sigma2,'C1-s',ms=5,mfc='none', label='MC')
 ax3.semilogx(pt, sigma,'C0-o', label='PCE')
 ax3.set_ylim(*y_lim)
 ax3.set_xlabel('number of evaluatins')
-ax3.set_ylabel('standard deviation')
+ax3.set_ylabel('standard deviation (euro)')
 ax3.set_title('saturation of y-axis in the range {} - {}'.format(*y_lim))
 
 # uncomment next line to save the image
