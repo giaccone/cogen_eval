@@ -10,7 +10,7 @@ In this repository you will find all the script to reprosuce the results of the 
 
 Codes included in this repository are written in Python 3, that is the only real requirement. They have been tested with Python 3.7 and 3.8 but also earlier version of Python 3 should work.
 
-Polynomial Chaos Exapansion simulation are made using this module [https://github.com/giaccone/pce](https://github.com/giaccone/pce) that is developed by the same author of this repository. This module can deployed throug the Python Package Index, therefore, it can be easily obtained bu rinning the following command:
+Polynomial Chaos Exapansion simulation are made using this module [https://github.com/giaccone/pce](https://github.com/giaccone/pce) that is developed by the same author of this repository. This module is deployed throug the Python Package Index, therefore, it can be easily obtained bu rinning the following command:
 
 ```bash
 pip install pce
