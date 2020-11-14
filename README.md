@@ -3,8 +3,8 @@
 
 In this repository you will find all the scripts to reproduce the results of the paper:
 
-*L. Giaccone, P. Lazzeroni and M. Repetto "Uncertainty Quantification in Energy Management Procedures"
-(Currently under review)*
+*Giaccone L., Lazzeroni P., Repetto M., “Uncertainty quantification in energy management procedures”, Vol. 9, N.9, September 2020, Article number 1471, pp. 1-10,  DOI: [10.3390/electronics9091471](https://www.mdpi.com/2079-9292/9/9/1471)*
+
 
 ## Requirements
 
